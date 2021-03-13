@@ -30,7 +30,7 @@ try:
     print(YellowLight+'Thanks To  : '+White+'Haz3ll and Xn5')
     print(YellowLight+'Version    : '+White+'3.4')
     print()
-    dork=input(Red+'['+BlueLight+'+'+Red+']'+YellowLight+' your dork :'+White+' ')
+    dork=input(Red+'['+Blue+'+'+Red+']'+YellowLight+' your dork :'+White+' ')
     payload="'"
     for url in search(dork):
         req=requests.get(url+payload)
