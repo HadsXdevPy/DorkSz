@@ -39,5 +39,5 @@ try:
             system('echo '+url+' >> vuln.txt')
         else:
             print(Red+'[x] not vuln :',url)
-except KeyboardInterrupt:
-    print(Red+'Abort By You')
+except:
+     print('\33[31;1mkelahan tak terduga')
